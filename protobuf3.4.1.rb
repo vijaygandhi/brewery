@@ -44,7 +44,8 @@ class Protobuf < Formula
     ENV.append_to_cflags "-I#{include}"
     ENV.append_to_cflags "-L#{lib}"
 
-    ["python2", "python3"].each do |python|
+    #["python2", "python3"].each do |python|
+    ["python2"].each do |python|
       resource("six").stage do
         system python, *Language::Python.setup_install_args(libexec)
       end
