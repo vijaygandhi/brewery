@@ -7,7 +7,7 @@ class Protobuf < Formula
   head "https://github.com/protocolbuffers/protobuf.git"
 
   bottle do
-    root_url "https://raw.githubusercontent.com/vijaygandhi/brewery/master"
+    root_url "https://github.com/vijaygandhi/brewery/raw/master"
     cellar :any
     rebuild 1
     sha256 "20d42f3b9746dd5ec2d0b82c2e04b84d34108749e0fbf4dddbf277c21c367185" => :mojave
